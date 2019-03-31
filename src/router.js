@@ -6,6 +6,7 @@ import Home from "./views/home.vue";
 Vue.use(Router);
 
 export default new Router({
+  base:'music-player',
   routes: [
     {
       path: "/",

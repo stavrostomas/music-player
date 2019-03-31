@@ -1,0 +1,35 @@
+/* General App Styles
+========================================
+========================================*/
+
+// Border Box for everything
+html {
+  height:100%;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+// Body Background
+body {
+  height: 100%;
+  background: #2d5559; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #2d5559 0%, #040608 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #2d5559 0%,#040608 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #2d5559 0%,#040608 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d5559', endColorstr='#040608',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+// Text Color
+body, div, h1, h2, h3, h4, h5, p {
+  color: map-get($colors, white)
+}
+
+// Make Images responsive
+img {
+  width: 100%;
+  height: auto;
+}

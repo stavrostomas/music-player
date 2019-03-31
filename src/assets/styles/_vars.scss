@@ -1,0 +1,41 @@
+/* VARS
+========================================
+========================================*/
+
+/* Breakpoints
+====================*/
+$brk: (
+    xxs: 320px,
+    xs: 360px,
+    s: 748px,
+    m0: 959px,
+    m: 1280px,
+    l: 1920px,
+    xl: 3840px,
+);
+
+/* Colors
+====================*/
+$colors: (
+    black: rgba(0,0,0,0.5),
+    gray: #282828,
+    white: #E8E8E8,
+    green: #20D760
+);
+
+/* Typography
+====================*/
+$typography: (
+    min_width: 320px,
+    max_width: 1280px,
+    min_font: 16px,
+    max_font: 24px
+);
+
+$min_width: 320px;
+$max_width: 1920px;
+$min_font: 14px;
+$max_font: 16px;
+
+$mod_1: 1.1; // mobile
+$mod_2: 1.3; // desktop

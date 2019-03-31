@@ -1,0 +1,80 @@
+{
+  "1":{
+    "title":"Awesome Mix Vol 1",
+    "author": "Stavros Tomas",
+    "year" : 2019,
+    "image" : "awesome-mix-vol-1",
+    "songs": {
+      "1" : {
+        "title": "Some Nights",
+        "artist" : "Imagine Dragons",
+        "duration" : 10
+      },
+      "2" : {
+        "title": "We are young",
+        "artist" : "Mark Ronson",
+        "duration" : 12
+      },
+      "3" : {
+        "title": "Carry On",
+        "artist" : "Avicci",
+        "duration" : 334
+      },
+      "4" : {
+        "title": "It Gets Better",
+        "artist" : "One Republic",
+        "duration" : 60
+      },
+      "5" : {
+        "title": "Why Am I the One",
+        "artist" : "John Newman",
+        "duration" : 243
+      },
+      "6" : {
+        "title": "All Alone",
+        "artist" : "Rag n' Bone Man",
+        "duration" : 340
+      },
+      "7" : {
+        "title": "One Foot",
+        "artist" : "Sia",
+        "duration" : 500
+      },
+      "8" : {
+        "title": "Stars",
+        "artist" : "Twenty One Pilots",
+        "duration" : 100
+      },
+      "9" : {
+        "title": "Out of the town",
+        "artist" : "Sia",
+        "duration" : 320
+      },
+      "10" : {
+        "title": "Legendary",
+        "artist" : "Avicci",
+        "duration" : 640
+      },
+      "11" : {
+        "title": "Human",
+        "artist" : "Imagine Dragons",
+        "duration" : 530
+      },
+      "12" : {
+        "title": "Sanctuary",
+        "artist" : "One Republic",
+        "duration" : 280
+      },
+      "13" : {
+        "title": "Don't you worry child",
+        "artist" : "Rag n' Bone Man",
+        "duration" : 10
+      },
+      "14" : {
+        "title": "Waiting for Love",
+        "artist" : "Imagine Dragons",
+        "duration" : 12
+      }
+    }
+  }
+}

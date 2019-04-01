@@ -21,27 +21,21 @@
       <v-tab-item class="ma-5">
         <h2>Made For You</h2>
         <v-layout row wrap>
-          <playlist-preview />
-          <playlist-preview />
-          <playlist-preview />
+          <playlist-preview v-for="index in 3" :key="index"/>
         </v-layout>
       </v-tab-item>
 
       <v-tab-item class="ma-5">
         <h2>The best new releases</h2>
         <v-layout row wrap>
-          <playlist-preview />
-          <playlist-preview />
-          <playlist-preview />
+          <playlist-preview v-for="index in 3" :key="index"/>
         </v-layout>
       </v-tab-item>
 
       <v-tab-item class="ma-5">
         <h2>Playlists Made just for you</h2>
         <v-layout row wrap>
-          <playlist-preview />
-          <playlist-preview />
-          <playlist-preview />
+          <playlist-preview v-for="index in 3" :key="index"/>
         </v-layout>
       </v-tab-item>
     </v-tabs>
